@@ -48,80 +48,80 @@ class StudentRepositoryTest {
 				.updateStudentNameByMailId("raddaoui","cdsc@d.c");
 		System.out.println("updateStudentNameByMailId\n");
 	}
-//	@Test
-//	public void findStudentByMailIdNativeNamedParam() {
-//		Student s= studentRepository
-//				.findStudentByMailIdNativeNamedParam("cdsc@d.c");
-//		System.out.println("findStudentByMailIdNativeNamedParam\n"+s);
-//	}
-//	@Test
-//	public void findStudentFirstNameByMailIdNative() {
-//		String s= studentRepository
-//				.findStudentFirstNameByMailIdNative("cdsc@d.c");
-//		System.out.println("findStudentFirstNameByMailIdNative\n"+s);
-//	}
-//	
-//	@Test
-//	public void findStudentByMailIdNative() {
-//		Student s= studentRepository
-//				.findStudentByMailIdNative("cdsc@d.c");
-//		System.out.println("findStudentByMailIdNative\n"+s);
-//	}
-//	
-//	
-//	
-//	
-//	
-//	
-//	
-//	
-//	
-//	@Test
-//	public void findStudentFirstNameByMailId() {
-//		String s= studentRepository
-//				.findStudentFirstNameByMailId("cdsc@d.c");
-//		System.out.println(s);
-//	}
-//	@Test
-//	public void findStudentByMailId() {
-//		Student s= studentRepository
-//				.findStudentByMailId("cdsc@d.c");
-//		System.out.println(s);
-//	}
-//	@Test
-//	public void printAllStudent() {
-//		List<Student> st= studentRepository.findAll();
-//		System.out.println(st);
-//	}
-//	@Test
-//	public void findByFirstNameContainingIgnoreCase() {
-//		List<Student> st= studentRepository
-//				.findByFirstNameContainingIgnoreCase("yAS");
-//		System.out.println("findByFirstNameContainingIgnoreCase\n"+st);
-//	}
-//	@Test
-//	public void findbyFirstName() {
-//		List<Student> st= studentRepository
-//				.findByFirstName("yassin");
-//		System.out.println("findbyFirstName\n"+st);
-//	}
-//	@Test
-//	public void findbyFirstNameContaining() {
-//		List<Student> stc= studentRepository
-//				.findByFirstNameContaining("yas");
-//		System.out.println("findbyFirstNameContaining\n"+stc);
-//	}
-//	@Test
-//	public void findByLastNameNotNull() {
-//		List<Student> stc= studentRepository
-//				.findByLastNameNotNull();
-//		System.out.println("findByLastNameNotNull\n"+stc);
-//	}
-//	@Test
-//	public void findByGuardianName() {
-//		List<Student> stc= studentRepository
-//				.findByGuardianName("yassin");
-//		System.out.println("findByGuardianName \n"+stc);
-//	}
-//	
+	@Test
+	public void findStudentByMailIdNativeNamedParam() {
+		Student s= studentRepository
+				.findStudentByMailIdNativeNamedParam("cdsc@d.c");
+		System.out.println("findStudentByMailIdNativeNamedParam\n"+s);
+	}
+	@Test
+	public void findStudentFirstNameByMailIdNative() {
+		String s= studentRepository
+				.findStudentFirstNameByMailIdNative("cdsc@d.c");
+		System.out.println("findStudentFirstNameByMailIdNative\n"+s);
+	}
+	
+	@Test
+	public void findStudentByMailIdNative() {
+		Student s= studentRepository
+				.findStudentByMailIdNative("cdsc@d.c");
+		System.out.println("findStudentByMailIdNative\n"+s);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	@Test
+	public void findStudentFirstNameByMailId() {
+		String s= studentRepository
+				.findStudentFirstNameByMailId("cdsc@d.c");
+		System.out.println(s);
+	}
+	@Test
+	public void findStudentByMailId() {
+		Student s= studentRepository
+				.findStudentByMailId("cdsc@d.c");
+		System.out.println(s);
+	}
+	@Test
+	public void printAllStudent() {
+		List<Student> st= studentRepository.findAll();
+		System.out.println(st);
+	}
+	@Test
+	public void findByFirstNameContainingIgnoreCase() {
+		List<Student> st= studentRepository
+				.findByFirstNameContainingIgnoreCase("yAS");
+		System.out.println("findByFirstNameContainingIgnoreCase\n"+st);
+	}
+	@Test
+	public void findbyFirstName() {
+		List<Student> st= studentRepository
+				.findByFirstName("yassin");
+		System.out.println("findbyFirstName\n"+st);
+	}
+	@Test
+	public void findbyFirstNameContaining() {
+		List<Student> stc= studentRepository
+				.findByFirstNameContaining("yas");
+		System.out.println("findbyFirstNameContaining\n"+stc);
+	}
+	@Test
+	public void findByLastNameNotNull() {
+		List<Student> stc= studentRepository
+				.findByLastNameNotNull();
+		System.out.println("findByLastNameNotNull\n"+stc);
+	}
+	@Test
+	public void findByGuardianName() {
+		List<Student> stc= studentRepository
+				.findByGuardianName("yassin");
+		System.out.println("findByGuardianName \n"+stc);
+	}
+	
 }
