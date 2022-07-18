@@ -1,6 +1,6 @@
 # DataJPA
 how to use Spring Data JPA to create scalable back-end apps supported by any relational database. Spring Data  is an excellent choice because it allows you to focus on business logic while speeding up your development.
- Connecting Springboot App with DB
+ Connecting Springboot App with DB\n
  Mapping Entities with DB
  Different JPA Annotations
  Understanding Repositories and their methods
